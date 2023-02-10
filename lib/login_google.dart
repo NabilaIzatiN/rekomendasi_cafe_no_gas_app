@@ -23,7 +23,7 @@ class LoginGoogle extends StatelessWidget {
             Positioned(
                 top: 65,
                 child: Text(
-                  "DANS COFFEE",
+                  "MooCow Cafe",
                   style:
                       GoogleFonts.montserrat(color: Colors.white, fontSize: 30),
                 )),
