@@ -65,7 +65,7 @@ class _DetailPageState extends State<DetailPage> {
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Text(
-                      "Kopi Kenangan",
+                      "MooCow Cafe",
                       style: GoogleFonts.poppins(
                           fontSize: 18, fontWeight: FontWeight.bold),
                     ),

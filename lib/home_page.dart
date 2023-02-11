@@ -111,19 +111,19 @@ class _HomePageState extends State<HomePage> {
             ),
             item_toko(
               gambar: "assets/coffee_1.jpg",
-              nama: "Kopi Kenangan",
+              nama: "Moocow",
               rating: "4.4",
               jam: "09.00 - 21.00",
             ),
             item_toko(
               gambar: "assets/coffee_2.jpg",
-              nama: "Janji Jiwa",
+              nama: "Bento Kopi",
               rating: "4.3",
               jam: "09.00 - 21.00",
             ),
             item_toko(
               gambar: "assets/coffee_3.jpg",
-              nama: "Coffee Lieur",
+              nama: "Cangu cafe",
               rating: "4.5",
               jam: "13.00 - 23.00",
             ),
@@ -172,6 +172,8 @@ class item_toko extends StatelessWidget {
                   ),
                 ),
                 ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: HexColor("#C19F77")),
                     onPressed: () {
                       Navigator.pushNamed(context, '/Detailpage');
                     },
@@ -201,10 +203,6 @@ class item_toko extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        Icon(
-                          Icons.star,
-                          color: Colors.amber,
-                        ),
                         SizedBox(
                           width: 5,
                         ),
